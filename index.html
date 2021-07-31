@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Single Page</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Wellcome</h1>
+    <form id="form">
+      <input id="input" type="text">
+      <p>Note :
+        <ul>
+          <li>you can input the number, then press Count Button</li>
+          <li>and you can input the char, 
+            according to the following pattern A,B,C (must use ","), then press View Button</li>
+        </ul>
+      </p>
+    </form>
+    <div id="btn">
+      <button id="btn-count"onclick="Count();">Count</button>
+      <button id="btn-view"onclick="View();">View</button>
+    </div>
+    
+    <h4>Multiply of Array : </h4><p id="multiply"></p>
+    <h4>Character rating: </h4><p id="char"></p>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

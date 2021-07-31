@@ -1,0 +1,33 @@
+.container{
+  width:500px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+  background: lightblue;
+}
+
+#title{
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+#input {
+  width: 200px;
+  height : 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#btn{
+  margin-left: 150px;
+  margin-right: 10px;
+}
+#btn-count{
+  background-color: blue;
+  color:white;
+}
+#btn-view{
+  margin-left: 100px;
+  background-color: green;
+  color:white;
+}
+
